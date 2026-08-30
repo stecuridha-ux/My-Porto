@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T Ridha Bantasyam — Electrical Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<div id="scroll-bar"></div>
+
+<header id="site-header">
+  <a href="javascript:void(0)" data-scroll="home" class="brand">
+    <div class="brand-badge"><img src="aa3f45be-8367-4592-a07e-90c641a578d1.jpg" alt="" srcset=""></div>
+    T Ridha Bantasyam
+  </a>
+
+  <nav class="desktop" style="display:flex;gap:2rem;align-items:center;">
+    <a href="javascript:void(0)" data-scroll="home" class="nav-link">Home</a>
+    <a href="javascript:void(0)" data-scroll="about" class="nav-link">About</a>
+    <a href="javascript:void(0)" data-scroll="projects" class="nav-link">Projects</a>
+    <a href="javascript:void(0)" data-scroll="skills" class="nav-link">Skills</a>
+    <a href="javascript:void(0)" data-scroll="experience" class="nav-link">Experience</a>
+    <a href="javascript:void(0)" data-scroll="contact" class="btn-cta">Contact</a>
+  </nav>
+
+  <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</header>
+
+<nav id="mobile-nav" aria-label="Mobile navigation">
+  <a href="javascript:void(0)" data-scroll="home" class="nav-link">Home</a>
+  <a href="javascript:void(0)" data-scroll="about" class="nav-link">About</a>
+  <a href="javascript:void(0)" data-scroll="projects" class="nav-link">Projects</a>
+  <a href="javascript:void(0)" data-scroll="skills" class="nav-link">Skills</a>
+  <a href="javascript:void(0)" data-scroll="experience" class="nav-link">Experience</a>
+  <a href="javascript:void(0)" data-scroll="contact" class="nav-link">Contact</a>
+</nav>
+
+<section id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-bg-text">RIDHA<br>BANTASYAM</div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="hero-eyebrow reveal">Electrical Engineer</p>
+      <h1 class="hero-title reveal">Designing electrical systems that make ideas <span class="accent">move.</span></h1>
+      <p class="hero-desc reveal">I build dependable circuits, power systems, and automation solutions — from first signal to real-world performance.</p>
+      <div class="hero-actions reveal">
+        <a href="javascript:void(0)" data-scroll="projects" class="btn-primary">
+          View Projects
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+        <a href="javascript:void(0)" data-scroll="contact" class="btn-outline">
+          Contact Me
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+      <div class="hero-stats stagger">
+        <div>
+          <div class="stat-num">05+</div>
+          <div class="stat-label">Years exploring electrical systems</div>
+        </div>
+        <div>
+          <div class="stat-num">12</div>
+          <div class="stat-label">Technical concepts and prototypes</div>
+        </div>
+        <div>
+          <div class="stat-num">06</div>
+          <div class="stat-label">Core electrical disciplines</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-3d reveal-right">
+      <div class="hero-ring hero-ring-1"></div>
+      <div class="hero-ring hero-ring-2"></div>
+      <div class="cube-scene" id="cube">
+        <div class="cube-face front"></div>
+        <div class="cube-face back"></div>
+        <div class="cube-face left"></div>
+        <div class="cube-face right"></div>
+        <div class="cube-face top"></div>
+        <div class="cube-face bottom"></div>
+      </div>
+      <div class="cc tl"></div>
+      <div class="cc tr"></div>
+      <div class="cc bl"></div>
+      <div class="cc br"></div>
+      <div class="hero-num">01</div>
+    </div>
+  </div>
+
+  <div class="hero-dots">
+    <div class="hero-dot active"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal-left">
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">Engineering clarity for systems that need to perform.</h2>
+        <p class="about-copy">I am an Electrical Engineer interested in the point where careful analysis becomes useful hardware. My approach begins with the system: its inputs, constraints, risks, and the people who rely on it.</p>
+        <p class="about-copy">From circuit design and embedded control to automation and power monitoring, I focus on solutions that are clear, testable, and built for practical operation.</p>
+        <div class="about-banner">Working principles: safety-aware design, clear documentation, disciplined testing, and useful technical decisions.</div>
+      </div>
+      <div class="reveal-right about-img-wrap">
+        <div class="about-img">
+          <img src="https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg" alt="Technician operating laboratory electronic testing and measurement devices." loading="lazy">
+        </div>
+        <div class="about-img-label">Measure → model → make</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="projects-head reveal">
+      <div>
+        <p class="eyebrow">Selected Work</p>
+        <h2 class="section-title">Electrical projects with a<br>practical point of view.</h2>
+      </div>
+      <p class="projects-intro">A focused selection across smart monitoring, circuit-level development, and industrial control.</p>
+    </div>
+    <div class="projects-grid stagger">
+
+      <article class="p-card">
+        <div class="p-img-wrap">
+          <img class="p-img" src="https://images.pexels.com/photos/38171183/pexels-photo-38171183.jpeg" alt="Solar inverter internal components" loading="lazy">
+        </div>
+        <div class="p-body">
+          <p class="p-cat">Power Systems</p>
+          <h3 class="p-title">Smart Power Monitor</h3>
+          <p class="p-desc">A compact monitoring concept for reading energy signals, identifying anomalies, and making power data easier to act on.</p>
+          <button class="p-btn" data-modal="modal-1">
+            View details
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="p-card">
+        <div class="p-img-wrap">
+          <img class="p-img" src="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Raspberry Pi circuit board" loading="lazy">
+        </div>
+        <div class="p-body">
+          <p class="p-cat">Circuit Design</p>
+          <h3 class="p-title">Embedded Control Board</h3>
+          <p class="p-desc">A modular embedded system designed around sensing, reliable signal flow, and straightforward hardware iteration.</p>
+          <button class="p-btn" data-modal="modal-2">
+            View details
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="p-card">
+        <div class="p-img-wrap">
+          <img class="p-img" src="https://images.pexels.com/photos/18471537/pexels-photo-18471537.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Advanced industrial machinery" loading="lazy">
+        </div>
+        <div class="p-body">
+          <p class="p-cat">Automation</p>
+          <h3 class="p-title">Control Logic Prototype</h3>
+          <p class="p-desc">An automation concept that maps machine states, improves visibility, and reduces repetitive manual checks.</p>
+          <button class="p-btn" data-modal="modal-3">
+            View details
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="skills-layout">
+      <div class="reveal-left">
+        <p class="eyebrow">Skills</p>
+        <h2 class="section-title">Technical tools, grounded in fundamentals.</h2>
+        <p class="skills-copy">A balanced toolkit for investigating electrical problems, developing clear solutions, and communicating technical work with confidence.</p>
+      </div>
+      <div class="skills-grid stagger">
+        <div class="skill-tile">Circuit Design</div>
+        <div class="skill-tile">Power Systems</div>
+        <div class="skill-tile">PLC &amp; Automation</div>
+        <div class="skill-tile">Embedded C</div>
+        <div class="skill-tile">Microcontrollers</div>
+        <div class="skill-tile">Sensors &amp; IoT</div>
+        <div class="skill-tile">MATLAB / Simulink</div>
+        <div class="skill-tile">Technical Testing</div>
+        <div class="skill-tile">System Documentation</div>
+      </div>
+    </div>
+  </div>
+  <div class="ticker-wrap">
+    <div class="ticker-track" id="ticker">
+      <span class="ticker-item">Circuit Design</span>
+      <span class="ticker-item">Power Systems</span>
+      <span class="ticker-item">PLC Automation</span>
+      <span class="ticker-item">Embedded C</span>
+      <span class="ticker-item">Microcontrollers</span>
+      <span class="ticker-item">Sensors & IoT</span>
+      <span class="ticker-item">MATLAB Simulink</span>
+      <span class="ticker-item">Technical Testing</span>
+      <span class="ticker-item">System Documentation</span>
+      <span class="ticker-item">Circuit Design</span>
+      <span class="ticker-item">Power Systems</span>
+      <span class="ticker-item">PLC Automation</span>
+      <span class="ticker-item">Embedded C</span>
+      <span class="ticker-item">Microcontrollers</span>
+      <span class="ticker-item">Sensors & IoT</span>
+      <span class="ticker-item">MATLAB Simulink</span>
+      <span class="ticker-item">Technical Testing</span>
+      <span class="ticker-item">System Documentation</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="reveal">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">A systems mindset, from component to operation.</h2>
+    </div>
+    <div class="exp-timeline stagger">
+
+      <article class="exp-item">
+        <div class="exp-dot"></div>
+        <p class="exp-period">2023 — Present</p>
+        <h3 class="exp-role">Electrical Systems Engineer</h3>
+        <p class="exp-company">Electrical &amp; Technology Projects</p>
+        <p class="exp-copy">Developing and reviewing electrical concepts, technical workflows, and test-ready solutions for practical system needs.</p>
+      </article>
+
+      <article class="exp-item">
+        <div class="exp-dot"></div>
+        <p class="exp-period">2021 — 2023</p>
+        <h3 class="exp-role">Automation Engineer</h3>
+        <p class="exp-company">Process Improvement Initiatives</p>
+        <p class="exp-copy">Created control and monitoring approaches that improved process consistency, visibility, and operational decision-making.</p>
+      </article>
+
+      <article class="exp-item">
+        <div class="exp-dot"></div>
+        <p class="exp-period">2019 — 2021</p>
+        <h3 class="exp-role">Engineering Associate</h3>
+        <p class="exp-company">Product &amp; Infrastructure Teams</p>
+        <p class="exp-copy">Supported circuit prototyping, technical research, documentation, and cross-functional problem-solving across engineering work.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal-left">
+        <p class="eyebrow contact-eyebrow">Contact</p>
+        <h2 class="section-title contact-title">Have an electrical problem worth solving?</h2>
+        <p class="contact-copy">Use this demo contact space to explore the portfolio experience and start shaping a technical conversation.</p>
+        <div class="contact-note">Demo form only. Anything entered here is not sent, saved, or stored.</div>
+      </div>
+
+      <div class="reveal-right contact-form">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-textarea form-input" id="message" name="message" rows="5" required>Tell me about your project</textarea>
+          </div>
+          <button class="form-submit" type="submit">
+            Send Demo Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 T Ridha Bantasyam. Built with electrical engineering clarity.</p>
+  <nav class="footer-social" aria-label="Social links">
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+</footer>
+
+<div class="modal" id="modal-1" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+  <div class="modal-panel">
+    <button class="modal-close" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <p class="modal-cat">Power Systems</p>
+    <h3 id="modal-1-title" class="modal-title">Smart Power Monitor</h3>
+    <p class="modal-copy">This concept brings voltage, current, and usage signals into one readable view. The focus is early anomaly detection, safer decision-making, and a monitoring workflow that remains practical for operators.</p>
+  </div>
+</div>
+
+<div class="modal" id="modal-2" role="dialog" aria-modal="true" aria-labelledby="modal-2-title">
+  <div class="modal-panel">
+    <button class="modal-close" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <p class="modal-cat">Circuit Design</p>
+    <h3 id="modal-2-title" class="modal-title">Embedded Control Board</h3>
+    <p class="modal-copy">A modular hardware approach for sensing and control tasks. The design considers component selection, signal reliability, maintainable interfaces, and a clear route from prototype to testing.</p>
+  </div>
+</div>
+
+<div class="modal" id="modal-3" role="dialog" aria-modal="true" aria-labelledby="modal-3-title">
+  <div class="modal-panel">
+    <button class="modal-close" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <p class="modal-cat">Automation</p>
+    <h3 id="modal-3-title" class="modal-title">Control Logic Prototype</h3>
+    <p class="modal-copy">This automation prototype maps key machine conditions into clear control states. It is designed to reduce repetitive monitoring, improve status visibility, and support more consistent operating routines.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
